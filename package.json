@@ -1,0 +1,23 @@
+{
+  "name": "tailwind_first_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahosridoy/Tailwind_First_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahosridoy/Tailwind_First_Project/issues"
+  },
+  "homepage": "https://github.com/sahosridoy/Tailwind_First_Project#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
